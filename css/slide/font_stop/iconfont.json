@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "588227",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    }
+  ]
+}
