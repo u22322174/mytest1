@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* :root {
+    background: #ffff00;
+} */
+
+body,html{
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.masonry { 
+    -moz-columns: 6 auto; /* Firefox */
+                    -webkit-columns: 6 auto; /* Safari 和 Chrome */
+                     columns: 6 auto;
+                     -moz-column-gap: 5px;
+                     -webkit-column-gap: 5px;
+                     column-gap: 5px;
+                     width: 100%;
+                     margin: 5px;
+                }
+.item { 
+        padding: 0;
+        margin-bottom: 0;
+        -webkit-column-break-inside: avoid;
+        break-inside: avoid;
+}
+
+.item img{
+    width: 100%;
+}
+
+@media(max-width: 1000px) {
+    .masonry { 
+        -moz-column-count:4; /* Firefox */
+                         -webkit-column-count:4; /* Safari 和 Chrome */
+                         column-count:4;
+                         -moz-column-gap: 5px;
+                         -webkit-column-gap: 5px;
+                         column-gap: 5px;
+                         width: 100%;
+                    }
+} 
+
+@media(max-width:800px) {
+    .masonry { 
+        -moz-column-count:3; /* Firefox */
+                         -webkit-column-count:3; /* Safari 和 Chrome */
+                         column-count:3;
+                         -moz-column-gap: 2px;
+                         -webkit-column-gap: 5px;
+                         column-gap: 5px;
+                         width: 100%;
+                    }
+}
