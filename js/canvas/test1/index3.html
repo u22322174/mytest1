@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Ball
+        </title>
+        <meta content="text/html" charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+    </head>
+    <body>
+        <div class="Stadium">
+            <h2>太极图案</h2>
+            <canvas></canvas>
+        </div>
+        <script>
+            var canvas = document.querySelector('canvas'),
+    ctx = canvas.getContext('2d'),
+    style = getComputedStyle(canvas,null),
+    width = canvas.width = parseInt(style.width),
+    height = canvas.height = parseInt(style.height)
+
+    // ctx.save()
+    // ctx.beginPath()
+    // ctx.fillStyle = '#ccc'
+    // ctx.fillRect(0,0,width,height)
+    // ctx.restore()
+
+    ctx.save()
+    ctx.beginPath()
+    ctx.arc(200,200,150,0,2*Math.PI)
+    ctx.lineWidth = 1
+    ctx.strokeStyle = "#ccc"
+    ctx.stroke()
+    ctx.restore()
+    ctx.save()
+    ctx.beginPath()
+    ctx.arc(200,200,150,0,1*Math.PI)
+    ctx.fillStyle='black'
+    ctx.fill()
+    ctx.stroke()
+    ctx.restore()
+    ctx.save()
+    ctx.beginPath()
+    ctx.arc(125,200,75,0,1*Math.PI)
+    ctx.fillStyle='#fff'
+    ctx.fill()
+    ctx.restore()
+    ctx.save()
+    ctx.beginPath()
+    ctx.arc(275,200,75,0,2*Math.PI)
+    ctx.fillStyle='black'
+    ctx.fill()
+    ctx.restore()
+
+    ctx.save()
+    ctx.beginPath()
+    ctx.arc(125,200,10,0,2*Math.PI)
+    ctx.fillStyle = 'black'
+    ctx.fill()
+    ctx.stroke()
+    ctx.restore()
+    ctx.save()
+    ctx.beginPath()
+    ctx.arc(275,200,10,0,2*Math.PI)
+    ctx.fillStyle = '#fff'
+    ctx.fill()
+    ctx.stroke()
+    ctx.restore()
+        </script>
+    </body>
+</html>
+

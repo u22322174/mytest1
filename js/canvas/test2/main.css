@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#box {
+    width: 100px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 100px;
+}
+#father {
+  width: 40%;
+  height: 500px;
+  background-color: rgb(226, 117, 184);
+  position: absolute;
+  left: 5%;
+  top: calc(50% - 500px/2);
+  min-width: 500px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  cursor: move;
+}
+#scale { 
+  width: 10px; 
+  height: 10px; 
+  overflow: hidden; 
+  cursor: se-resize; 
+  position: absolute; 
+  right: 0; 
+  bottom: 0; 
+  /* background-color: rgb(122, 191, 238);  */
+}
+.canvas-wrap {
+  width: 40%;
+  height: 500px;
+  /* background-color: rgb(226, 117, 184); */
+  border: 1PX solid #ccc;
+  position: absolute;
+  right: 5%;
+  min-width: 500px;
+  top: calc(50% - 500px/2);
+}
+.submit{
+  position: relative;
+  top: -30px;
+  left: 10px;
+  min-width: 80px;
+  max-width: 120px;
+}
+.file{
+  position: relative;
+  top: -30px;
+  left: 0;  
+}
+
+.mycanvas {
+    
+}
