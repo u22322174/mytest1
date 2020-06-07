@@ -1,0 +1,28 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1581935635683'); /* IE9 */
+  src: url('iconfont.eot?t=1581935635683#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOcAAsAAAAAB9AAAANQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqDWIMKATYCJAMICwYABCAFhG0HMRuxBhHVm8/IvjgwT5p+5JLjTRPqFjNiizHwE9J7DuJZ7m0ekJRPuiqqt55W8nJa3sYohEmX7PnW//IZ0G7yhF8NEAAxuQ9ohlwFwMXhtCk+HyjHORd1AcYBBTTWprI4kAIpMG4Yu/IitkMAR2o5ScXKNRtiMRj9BJCe3bq0w6YkmJp4wSL4JVMNMhcPq6apmxjm+J+XH3RZUHgaI6lu50odKfs5kRmkx4ZjaekioI6nAtgs0EBOYEAalmpqo0NPThqneAzpsa54gc+JwtClrPaPBwLiY8RGA5ASUs6JatNO9ZcKAAPEAhYBB3ulQKz4fiI/gphpnUdbGRFr06OUrHqYcWPmyu7g4+R6RSMVS0cv7BBrUzK1cGnCjZedm34x8+bHaWT1k+Ir2245lmzl1czHn/R58vB5+PHQ6M3J9ZIlSbZcCoIZVzINxencaswIlq4jWjYfzLz2EbZ/k3HrU6y4kikgGJdofeRQzyOnUu58nGHJjn6uMDQIWJrRrQiepTt0n3ZI1zBPjFRo4b0td69edTVyeqeadZOmTJmCZ42mTak+NsW99bZPej3phEzTpKZ3Nbmq0aDq/LizGn7skyJB61faq1nUVVIMrMgJmsQrkGby4C7Tst6Z36N9kgGVlkkNczeJrt6nM3gxiq5A7xTRqZOVzXe2bmrGli34VdVIdj1plgodE949c7OcNEmm/sSsrfe6kW2STi8zqX6yNsl1ktYnKlRfUjGik7SjLADh9W/d/Zd9h0ZqdNAmTskYGxgAnvedlcA3hTe004G9Ma3AD6K2rDAq3ZAqI1NLA4pFxLrxPIcDQtgQ3+u+RW8jIFgSvRNdFKli0FgyIg02J3gEFAQfSxlw5FBldkAC/dGIiQDZTQIgxLUHFLE5A5q4biEN9hV4JPYLfOKmwdFYEiwZkDlrsQl6xQThD0vkkyy52iD+itN795Kk+7gnSlns0FZN1j/iiTLGiPKZOlUCEj5gALvhvjNk4RWjVrNq7uuayu5URT6MNQl6xQThD0vkk9zaanPvv+L03r3UlFXInyhlaRzaqmmBHDlnq7JruaV8pk6VgIQPGIAKd9PDkMs7rRi1mnu4cl+jatSWU83PO55uHeCMIVQXs62Gl7jICY0B') format('woff2'),
+  url('iconfont.woff?t=1581935635683') format('woff'),
+  url('iconfont.ttf?t=1581935635683') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1581935635683#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  display: block;
+    float: left;
+    width: 26px;
+    text-align: center;
+    height: 24px;
+    color: rgb(187, 167, 167);
+}
+
+.icon-qr-code:before {
+  content: "\e615";
+}
+

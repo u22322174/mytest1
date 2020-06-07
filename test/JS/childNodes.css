@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.Turntable{
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    top: 170px;
+    left: 300px;
+}
+
+.Turntable li{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    float: left;
+    list-style-type: none;
+    border: 1px solid #333;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.Turntable a{
+    position: relative;
+    cursor: pointer;
+    margin: 5px;
+    box-sizing: border-box;
+    display: block;
+    width: 100px;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Turntable a img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.Turntable a h3{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.selctor{
+    background: #f40;
+}

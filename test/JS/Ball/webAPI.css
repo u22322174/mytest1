@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#dV{
+    width: 100%;
+    height: 30px;
+    margin: 60px auto 20px auto;
+    text-align: center;
+}
+
+.dv{
+    margin: 30px auto;
+    width: 400px;
+    height: 400px;
+}
+
+#canvas{
+    width: 100%;
+    height: 100%;
+    background: #333;
+}
+
+.controls{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.controls input{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin-left: 40px;
+}
