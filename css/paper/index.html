@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Wallpaper
+        </title>
+       <meta content="text/html" charset="utf-8">
+       <link rel="stylesheet" href="main.css"> 
+       <script src="../vue.min.js"></script>
+    </head>
+    <body>
+        <div class="masonry" id="msn"> 
+        <div v-for="src in imgsrc" class="src">    
+            <div class="item"> 
+                <div class="item_content content-lar"> 
+                   <img :src="src"> 
+                </div> 
+            </div>     
+            </div>                                                          
+        </div>            
+    </body>
+</html>
+<script>
+    new Vue({
+        el:'.masonry',
+        data() {
+            return {
+                imgsrc:[]
+            }
+        },
+        created() {
+            this.getmysrc()
+        },
+        methods:{
+            getmysrc() {
+                var i = 48;
+                while(i >= 1) {
+                    this.imgsrc.push("ladys/" + i + ".jpg")
+                    i--;
+                }
+                console.log(this.imgsrc)
+            }
+        }
+    })
+</script>

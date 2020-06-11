@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3905967",
+      "name": "zhcc_向上箭头1",
+      "font_class": "zhcc_xiangshangjiantou",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    }
+  ]
+}
