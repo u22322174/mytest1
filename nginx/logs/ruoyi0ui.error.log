@@ -1,0 +1,2 @@
+2020/06/16 22:24:59 [error] 3896#3112: *1 directory index of "D:/vue工程/test/dist/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8025"
+2020/06/16 22:25:00 [error] 3896#3112: *1 directory index of "D:/vue工程/test/dist/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8025"
