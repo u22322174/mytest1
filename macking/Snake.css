@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bt1{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+}
+
+.bt2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+}
+
+.dv{
+    margin: 150px auto;
+    width: 400px;
+    height: 400px;
+}
+
+#canvas{
+    width: 100%;
+    height: 100%;
+}

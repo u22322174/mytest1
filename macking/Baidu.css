@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 810px;
+    min-height: 600px;
+}
+
+.wrapper .head{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .head-head{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    margin: 0;
+}
+#topright{
+z-index: 2;
+color: #fff;
+position: absolute;
+right: 0;
+top: 0;
+margin: 19px 0 5px;
+padding: 0 96px 0 0;
+}
+
+#topright a{
+    text-decoration: underline;
+    float: left;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+#topright a.class1{
+    font-weight: bold;
+}
+
+#topright a:link{
+    color: black;
+}
+
+#topright a:hover{
+    color: #00c;
+}
+
+.head-head .dropdown{
+    width: 60px;
+    height: 24px;
+    background-color: #3385ff;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    text-align: center;
+}
+
+.dropdown a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+.head .head-second{
+    position: relative;
+    width: 100%;
+    height: 190.2px;
+    margin: 50px auto auto auto;
+}
+
+.head-second .image{
+    text-align: center;
+}
+
+#form{
+    position: relative;
+    margin: 22px auto auto auto;
+    width: 641px;
+    height: 36px;
+    text-align: left;
+    z-index: 10;
+    padding: 0;
+}
+
+#form .form_lft{
+    padding: 0;
+    margin-left: 2px;
+}
+
+#form .Camera{
+    z-index: 1;
+    position: absolute;
+    right: 109px;
+    top: 50%;
+    margin-top: -8px;
+    height: 16px;
+    width: 18px;
+    background: #fff url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png) no-repeat;
+    background-image: -webkit-image-set(url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png) 1x,url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_x2_fb6c085.png) 2x);
+}
+
+ .frame{
+    width: 540px;
+    height: 32px;
+    padding: 0;
+    outline: 0;
+    border: 1px #999 solid;
+    border-right: 0;
+}
+
+ .button{
+    width: 98px;
+    height: 34px;
+    float: right;
+    background-color: #317ef3;
+    border: 1px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+}
+
+ #content-center{
+     position: relative;
+    width: 100%;
+    margin-top: 160px;
+    padding-top: 0;
+    height: 190.2px ;
+    padding: 0;
+    text-align: center;
+}
+
+.code-item{
+    position: relative;
+    width: 147px;
+    height: 164px;
+    margin: 0 auto;
+}
+
+.code-img {
+    position: relative;
+    width: 106px;
+    height: 106px;
+    margin: 0 auto auto auto;
+    border: 1px solid #f3f3f3;
+    background: url(https://dss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_09b6296.png) 0 0 no-repeat;
+    padding: 5px;
+    background-position: 5px;
+}
+
+.code-item .code-text{
+    text-align: center;
+    width: 147px;
+    height: 56px;
+}
+
+#content-center .code-item .code-text .p-title{
+    color: #333;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+}
+
+.code-item .code-text .p-second{
+    color: #999;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+}
+ 
+#footer{
+    padding-top: 0;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-content{
+    width: 100%;
+    height: 45px;
+}
+
+.footer-content .a1{
+    margin-left: 22px;
+    font: 12px arial; 
+    color: #999;
+}
+
+.footer-content p{
+    line-height: 22px;
+    font: 12px arial; 
+    color: #999;
+    padding: 0;
+    margin-top: 7px;
+}
+
+
+.footer-content .a2{
+    margin-left: 3px;
+    font: 12px arial; 
+    color: #999;
+}
+
+.footer-content .a3{
+    margin-left: 22px;
+    font: 12px arial; 
+    color: #999;
+}
