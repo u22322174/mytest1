@@ -77,6 +77,10 @@ $(document).ready(function(){
     })
     $('.reset').click(function(){
       $('#father').children(".child").remove()
+      $('canvas').remove()
+      var canvas = document.createElement('canvas')
+      document.querySelector('.canvas-wrap').appendChild(canvas);
+      canvas.className = 'mycanvas' 
       index = 0
       idx = 0
       ratios = []
